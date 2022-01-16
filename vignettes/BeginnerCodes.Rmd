@@ -1,0 +1,111 @@
+---
+title: "BeginnerCodes"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{BeginnerCodes}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+## BeginnerCodes Package for MBG5035
+
+### Introduction
+
+  
+BeginnerCodes consists of 3 functions that are coded to play 3 different games.  
+
+- isPermPalindrome  
+- MissingNOs  
+- productOfTheOthers  
+
+### Functions
+
+#### isPermPalindrome
+  
+This function's coded to play the permutation palindrome game.  
+It takes a lower case string as an input.  
+It checks the word front to back and back to front.  
+Then compares the results and replies true or false whether, the word is palindromic or not.  
+
+##### Example  
+
+Let's learn whether kayak is a permpalindromic word.
+
+```
+ isPermPalindrome("kayak")
+```
+Yes, it is!
+
+```
+[1] TRUE
+```
+
+#### MissingNOs
+
+This function's coded to play missing number game.  
+Function takes an array that consist of integers from 1 to 100 as an input.   
+It will compare users' input and its array.  
+Then it will find the missing numbers.  
+
+##### Example
+
+This code creates a list of numbers and send it to function.
+
+```
+missing_Numbers <- c((1:50),(52:55),(57:100))
+missingNOs(missing_Numbers)  
+```
+Console output:
+
+```
+[1] 51
+[1] 56
+```
+
+#### productOfTheOthers
+  
+This function's coded to play a game that the user can find the multiplication of the other integers and it takes.  
+It takes an array as an input.  
+It replaces each number in the array with the product of all the other numbers in the array except the number itselves.  
+
+##### Example
+
+This code creates a list of number and send it to function.
+
+```
+num_array <- c(3, 9, 7, -2)
+productOfTheOthers(num_array)
+```
+
+Console output:
+
+```
+[1] -126  -42  -54  189
+```
+
+### Package Details
+
+Package exists on [serayyetkin](https://github.com/serayyetkin/BeginnerCodes)   
+To install and use the package, belowing codes need to be run. 
+ 
+```
+install_github("serayyetkin/BeginnerCodes")
+library(BeginnerCodes)
+```
+### Contact  
+
+<p align = "left">
+            <a href="https://www.linkedin.com/in/serayyetkin/"><img width="50" height="50" src="C:/Users/lenovo/Desktop/linkedin-logo.png" /></a>
+        </p>
+
+<a href="mailto:yetkinseray@gmail.com">Send email</a>
+
+
+ 
