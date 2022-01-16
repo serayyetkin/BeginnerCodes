@@ -1,5 +1,5 @@
 Package: BeginnerCodes
-Title: A package That Enables the User to Play Different Games! Such as, 'isPermPalindrome', 'MissingNOs' and 'productTheOthers'
+Title: A package That Enables the User to Play Different Games!
 Version: 0.0.0.900
 Authors@R: 
     person("Seray", "Yetkin", , "yetkinseray@gmail.com", role = c("aut","cre"),
