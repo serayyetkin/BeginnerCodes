@@ -1,12 +1,17 @@
 Package: BeginnerCodes
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: A package That Enables the User to Play Different Games! Such as, 'isPermPalindrome', 'MissingNOs' and 'productTheOthers'
+Version: 0.0.0.900
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+    person("Seray", "Yetkin", , "yetkinseray@gmail.com", role = c("aut","cre"),
+           comment = c(Linkedin = "serayyetkin"))
+Description: This package consists of different functions that are coded for different games: isPermPalindrome, MissingNOs, productOfTheOthers  
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
     license
+URL: https://github.com/serayyetkin/BeginnerCodes
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
